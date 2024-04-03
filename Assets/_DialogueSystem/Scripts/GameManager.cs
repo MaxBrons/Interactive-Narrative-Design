@@ -1,8 +1,9 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -11,31 +12,34 @@ public class GameManager : MonoBehaviour
     [SerializeField] private TMP_Text _dialogueBarText;
     [SerializeField] private TextBarSettings _textBarSettings;
 
-    private TextBar _dialogueBar;
+    private DialogueBar _dialogueBar;
     private DialogueTree _dialogueTree;
 
     private async void Start()
     {
-        var data = JsonConvert.DeserializeObject<List<JObject>>(_dialogueData.text);
-        var startNodeData = data[0].ConvertTo<StartNodeExportData>();
-        var textNodeData = new List<TextNodeExportData>();
+        var dialogue = JsonConvert.DeserializeObject<List<JObject>>(_dialogueData.text);
+        var startNode = dialogue.First().ToObject<StartNodeExportData>();
 
-        for (int i = 1; i < data.Count; i++) {
-            var node = data[i].ConvertTo<TextNodeExportData>();
-            textNodeData.Add(node);
-        }
-        
-        _dialogueTree = new()
-        {
-            StartNodeData = startNodeData,
-            TextNodesData = textNodeData
-        };
-
+        _dialogueTree = new(startNode);
         _dialogueBar = new(_dialogueBarText, _textBarSettings);
 
-        DialogueTree.DialogueLine line = await _dialogueTree.GetNextLine();
+        for (int i = 1; i < dialogue.Count; i++) {
+            _dialogueTree.Stack(dialogue[i].ToObject<TextNodeExportData>());
+        }
 
-        await _dialogueBar.ShowLine(line.Header, line.Content);
+        await StartDialogue();
     }
 
+    private async Task StartDialogue()
+    {
+        while (!_dialogueTree.EndReached) {
+            var line = _dialogueTree.Pop();
+
+            await _dialogueBar.ShowLine(line);
+        }
+
+        var end = _dialogueTree.Pop();
+
+        await _dialogueBar.ShowLine(end);
+    }
 }

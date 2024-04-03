@@ -12,14 +12,21 @@ public class GraphConnectionsData : List<GraphConnectionsData.GraphConnectionPai
     }
 }
 
-public class StartNodeExportData
+public interface INodeData
 {
     public ulong ID { get; set; }
     public string Title { get; set; }
     public GraphConnectionsData Connections { get; set; }
 }
 
-public class TextNodeExportData
+public class StartNodeExportData : INodeData
+{
+    public ulong ID { get; set; }
+    public string Title { get; set; }
+    public GraphConnectionsData Connections { get; set; }
+}
+
+public class TextNodeExportData : INodeData
 {
     public ulong ID { get; set; }
     public string Title { get; set; }
