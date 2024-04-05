@@ -1,304 +1,1082 @@
 [
   {
-    "ID": 33084671457,
+    "ID": 159366778408,
     "Title": "Start",
     "Connections": [
       {
-        "FromNode": "0",
+        "FromNode": "51287950894",
         "FromPort": 0,
-        "ToNode": "47898953230",
+        "ToNode": "186881412296",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 47898953230,
-    "Title": "",
-    "Content": "EXT. TERRAS - OVERDAG",
-    "Connections": [
-      {
-        "FromNode": "47898953230",
-        "FromPort": 0,
-        "ToNode": "47898953229",
-        "ToPort": 0
-      }
-    ]
-  },
-  {
-    "ID": 47898953229,
+    "ID": 159534550575,
     "Title": "",
     "Content": "Een zonnig terras, er zitten meerdere mensen te genieten van een lekker drankje.",
     "Connections": [
       {
-        "FromNode": "47898953229",
+        "FromNode": "159534550575",
         "FromPort": 0,
-        "ToNode": "138059711989",
+        "ToNode": "159903647580",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 138059711989,
+    "ID": 159903647580,
     "Title": "",
     "Content": "BOB zit op het terras, ROGIER komt aanlopen.",
     "Connections": [
       {
-        "FromNode": "138059711989",
+        "FromNode": "159903647580",
         "FromPort": 0,
-        "ToNode": "231492027900",
+        "ToNode": "161010943893",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 259610642009,
+    "ID": 160272746351,
     "Title": "Rogier",
     "Content": "Rustig, fawaka met jou?",
     "Connections": [
       {
-        "FromNode": "259610642009",
+        "FromNode": "160272746351",
         "FromPort": 0,
-        "ToNode": "282444432970",
+        "ToNode": "161749141435",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 292141663870,
+    "ID": 160641845122,
     "Title": "",
     "Content": "BOB zwaait naar de ober, de ober komt naar de tafel gelopen.",
     "Connections": [
       {
-        "FromNode": "292141663870",
+        "FromNode": "160641845122",
         "FromPort": 0,
-        "ToNode": "313213847170",
+        "ToNode": "162118240206",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 231492027900,
+    "ID": 161010943893,
     "Title": "Bob",
     "Content": "Yo, alles goed?",
     "Connections": [
       {
-        "FromNode": "231492027900",
+        "FromNode": "161010943893",
         "FromPort": 0,
-        "ToNode": "236424529493",
+        "ToNode": "161380042664",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 236424529493,
+    "ID": 161380042664,
     "Title": "",
     "Content": "ROGIER gaat zitten op de plek en geeft BOB een hand.",
     "Connections": [
       {
-        "FromNode": "236424529493",
+        "FromNode": "161380042664",
         "FromPort": 0,
-        "ToNode": "259610642009",
+        "ToNode": "160272746351",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 282444432970,
+    "ID": 161749141435,
     "Title": "Bob",
     "Content": "Gaat goed man, lekker zonnetje dus klagen doen we niet.",
     "Connections": [
       {
-        "FromNode": "282444432970",
+        "FromNode": "161749141435",
         "FromPort": 0,
-        "ToNode": "292141663870",
+        "ToNode": "160641845122",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 313213847170,
+    "ID": 162118240206,
     "Title": "Ober",
     "Content": "Goedemiddag heren, wat kan ik voor jullie inschenken?",
     "Connections": [
       {
-        "FromNode": "313213847170",
+        "FromNode": "162118240206",
         "FromPort": 0,
-        "ToNode": "303164294799",
+        "ToNode": "162487338977",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 303164294799,
+    "ID": 162487338977,
     "Title": "Rogier",
     "Content": "Een Despo voor mij",
     "Connections": [
       {
-        "FromNode": "303164294799",
+        "FromNode": "162487338977",
         "FromPort": 0,
-        "ToNode": "328531445317",
+        "ToNode": "162856437748",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 328531445317,
+    "ID": 162856437748,
     "Title": "Bob",
     "Content": "Maak er daar maar 2 van, en een..",
     "Connections": [
       {
-        "FromNode": "328531445317",
+        "FromNode": "162856437748",
         "FromPort": 0,
-        "ToNode": "341668005472",
+        "ToNode": "163594635288",
         "ToPort": 0
       },
       {
-        "FromNode": "328531445317",
+        "FromNode": "162856437748",
         "FromPort": 0,
-        "ToNode": "345426101987",
+        "ToNode": "166178326685",
         "ToPort": 0
       },
       {
-        "FromNode": "328531445317",
+        "FromNode": "162856437748",
         "FromPort": 0,
-        "ToNode": "356247406302",
+        "ToNode": "163225536518",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 356247406302,
+    "ID": 163225536518,
     "Title": "Bob",
     "Content": "dat was hem",
     "Connections": [
       {
-        "FromNode": "356247406302",
+        "FromNode": "163225536518",
         "FromPort": 0,
-        "ToNode": "1582796113511",
+        "ToNode": "163963734059",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 341668005472,
+    "ID": 163594635288,
     "Title": "Bob",
     "Content": "borrelplankje alstublieft",
     "Connections": [
       {
-        "FromNode": "341668005472",
+        "FromNode": "163594635288",
         "FromPort": 0,
-        "ToNode": "1582796113511",
+        "ToNode": "163963734059",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 345426101987,
-    "Title": "Bob",
-    "Content": "bittergarnituur alstublieft",
-    "Connections": [
-      {
-        "FromNode": "345426101987",
-        "FromPort": 0,
-        "ToNode": "1582796113511",
-        "ToPort": 0
-      }
-    ]
-  },
-  {
-    "ID": 1582796113511,
+    "ID": 163963734059,
     "Title": "Ober",
     "Content": "Komt eraan, heren!",
     "Connections": [
       {
-        "FromNode": "1582796113511",
+        "FromNode": "163963734059",
         "FromPort": 0,
-        "ToNode": "1829052090384",
+        "ToNode": "164332832830",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 1829052090384,
+    "ID": 164332832830,
     "Title": "",
     "Content": "De ober loopt weg, Rogier kijk ge\u00EFnteresseerd naar Bob",
     "Connections": [
       {
-        "FromNode": "1829052090384",
+        "FromNode": "164332832830",
         "FromPort": 0,
-        "ToNode": "1932332631872",
+        "ToNode": "164701931601",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 1932332631872,
+    "ID": 164701931601,
     "Title": "Rogier",
     "Content": "Nog wat spannends te melden? Of nog steeds beetje werken, zuipen en neuken.",
     "Connections": [
       {
-        "FromNode": "1932332631872",
+        "FromNode": "164701931601",
         "FromPort": 0,
-        "ToNode": "1996320933923",
+        "ToNode": "165071030372",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 1996320933923,
+    "ID": 165071030372,
     "Title": "",
     "Content": "Bob kijkt Rogier raar aan",
     "Connections": [
       {
-        "FromNode": "1996320933923",
+        "FromNode": "165071030372",
         "FromPort": 0,
-        "ToNode": "2197144209472",
+        "ToNode": "165440129143",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 2197144209472,
+    "ID": 165440129143,
     "Title": "Bob",
     "Content": "Je kan zeggen wat je wilt, maar de zaken gaan erg goed op het moment",
     "Connections": [
       {
-        "FromNode": "2197144209472",
+        "FromNode": "165440129143",
         "FromPort": 0,
-        "ToNode": "2276752099451",
+        "ToNode": "165809227914",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 2276752099451,
+    "ID": 165809227914,
     "Title": "Rogier",
     "Content": "Oh vertel? Heb je je vrouw in de reclame gezet?",
     "Connections": [
       {
-        "FromNode": "2276752099451",
+        "FromNode": "165809227914",
         "FromPort": 0,
-        "ToNode": "2398873454775",
+        "ToNode": "166916524227",
         "ToPort": 0
       },
       {
-        "FromNode": "2276752099451",
+        "FromNode": "165809227914",
         "FromPort": 0,
-        "ToNode": "2398370138269",
+        "ToNode": "166547425456",
         "ToPort": 0
       }
     ]
   },
   {
-    "ID": 2398370138269,
+    "ID": 166178326685,
+    "Title": "Bob",
+    "Content": "bittergarnituur alstublieft",
+    "Connections": [
+      {
+        "FromNode": "166178326685",
+        "FromPort": 0,
+        "ToNode": "163963734059",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 166547425456,
     "Title": "Bob",
     "Content": "Ho Ho, die hou ik natuurlijk alleen voor mezelf haha. Maar nee heb laatst een goeie deal met ...",
+    "Connections": [
+      {
+        "FromNode": "166547425456",
+        "FromPort": 0,
+        "ToNode": "167654721769",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 166916524227,
+    "Title": "Bob",
+    "Content": "Ho Ho, beetje respect voor mijn vrouw graag.. Maar nee heb laatst een goeie deal met ...",
+    "Connections": [
+      {
+        "FromNode": "166916524227",
+        "FromPort": 0,
+        "ToNode": "167285622998",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 167285622998,
+    "Title": "Rogier",
+    "Content": "Sorry man, vergeef het me, het was een fatoe. Maar fakka, kan jij me misschien uit de brand helpen?",
+    "Connections": [
+      {
+        "FromNode": "167285622998",
+        "FromPort": 0,
+        "ToNode": "168023820540",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 167654721769,
+    "Title": "Rogier",
+    "Content": "Samen delen, samen spelen toch haha, Neejoh fatoe. Maar fakka, kan jij me misschien uit de brand helpen?",
+    "Connections": [
+      {
+        "FromNode": "167654721769",
+        "FromPort": 0,
+        "ToNode": "168023820540",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 168023820540,
+    "Title": "",
+    "Content": "Rogier zijn blik veranderd naar een wat serieuzere blik",
+    "Connections": [
+      {
+        "FromNode": "168023820540",
+        "FromPort": 0,
+        "ToNode": "168392919311",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 168392919311,
+    "Title": "Rogier",
+    "Content": "Ik heb wat doekoe nodig voor wat tories, paar kleine schulden enzo. Kan jij die niet effe voor me voorschieten,ik betaal ze terug.",
+    "Connections": [
+      {
+        "FromNode": "168392919311",
+        "FromPort": 0,
+        "ToNode": "168762018082",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 168762018082,
+    "Title": "Bob",
+    "Content": "Gozer waar heb je het over, wat heb je gedaan?",
+    "Connections": [
+      {
+        "FromNode": "168762018082",
+        "FromPort": 0,
+        "ToNode": "169131116853",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 169131116853,
+    "Title": "Rogier",
+    "Content": "Nee tuurlijk niet maat, maar het is wel effe belangrijk toch en dacht we kennen elkaar zo lang al dat kan vast geen kwaad.",
+    "Connections": [
+      {
+        "FromNode": "169131116853",
+        "FromPort": 0,
+        "ToNode": "169869314395",
+        "ToPort": 0
+      },
+      {
+        "FromNode": "169131116853",
+        "FromPort": 0,
+        "ToNode": "169500215624",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 169500215624,
+    "Title": "Bob",
+    "Content": "je komt hier om geld te vragen maat, Ik werk voor mijn shit en daardoor kan ik nu normaal leven man. Zonder altijd om geld te moeten denken als ik\u2026",
+    "Connections": [
+      {
+        "FromNode": "169500215624",
+        "FromPort": 0,
+        "ToNode": "170607511937",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 169869314395,
+    "Title": "Bob",
+    "Content": "yo man, even eerlijk. We zijn goede maatje enzo, maar om wat geld vragen omdat jij shit verkloot is niet de bedoeling.",
+    "Connections": [
+      {
+        "FromNode": "169869314395",
+        "FromPort": 0,
+        "ToNode": "170238413166",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 170238413166,
+    "Title": "Rogier",
+    "Content": "Broer je weet nog geen eens waarom en nu zeg je dat je niks wilt geven!",
+    "Connections": [
+      {
+        "FromNode": "170238413166",
+        "FromPort": 0,
+        "ToNode": "186512313525",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 170607511937,
+    "Title": "Rogier",
+    "Content": "Wat heb ik ook aan jou, met je mooie gelikte jakka en die nieuwe pattas van je! Jij bent ook een crimi geweest en nu ga je een beetje hoog lopen doen. Tieft op, ik regel die torrie zelf wel als je zo gaat doen!",
+    "Connections": [
+      {
+        "FromNode": "170607511937",
+        "FromPort": 0,
+        "ToNode": "170976610708",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 170976610708,
+    "Title": "Bob",
+    "Content": "Het is wel kut natuurlijk, maar zomaar om geld vragen is niet de bedoeling natuurlijk man. Maar wat is er aan de hand?",
+    "Connections": [
+      {
+        "FromNode": "170976610708",
+        "FromPort": 0,
+        "ToNode": "171345709479",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 171345709479,
+    "Title": "Rogier",
+    "Content": "Ja, mijn dochter is een half jaar geleden gediagnosticeerd met een zeer ernstige ziekte. En je weet dat ik als alleenstaande vader fucking skeer ben, en de enige operatie zeker omdat de enige operatie 60 ruggen, veel meer dan ik \u00FCberhaupt per jaar pak met mijn werk.",
+    "Connections": [
+      {
+        "FromNode": "171345709479",
+        "FromPort": 0,
+        "ToNode": "171714808250",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 171714808250,
+    "Title": "Bob",
+    "Content": "Dat is niet goed om te horen Rogier, beterschap met je dochter man.",
+    "Connections": [
+      {
+        "FromNode": "171714808250",
+        "FromPort": 0,
+        "ToNode": "172083907021",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 172083907021,
+    "Title": "Rogier",
+    "Content": "Ja en ik wil mijn kleine meid ook niet kwijt, en zeker niet op de manier zoals mijn dussi haar moeder ook heen is gegaan. Daarom heb ik meer torries aangenomen. Dat was voor mij de enige manier hoe ik aan de doekoe voor de operatie kon komen dacht ik.",
+    "Connections": [
+      {
+        "FromNode": "172083907021",
+        "FromPort": 0,
+        "ToNode": "172453005792",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 172453005792,
+    "Title": "Bob",
+    "Content": "Het is echt vervelend om te horen, maar je bent wel echt super dom om om nog meer klussen te doen man! Waarom \u00FCberhaupt zo man\u2026  ",
+    "Connections": [
+      {
+        "FromNode": "172453005792",
+        "FromPort": 0,
+        "ToNode": "172822104563",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 172822104563,
+    "Title": "Rogier",
+    "Content": "Ja, ik weet het. Maar ik heb het geld nu bij elkaar, maar nu sta ik al een maand in de schulden bij mijn vaste leverancier. En je weet\u2026",
+    "Connections": [
+      {
+        "FromNode": "172822104563",
+        "FromPort": 0,
+        "ToNode": "173191203334",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 173191203334,
+    "Title": "Bob",
+    "Content": "Je bent mijn mattie, maar idk man je hebt zelf je leven verkloot. En dan vraag je aan mij of ik het eventjes goed kan maken. Ik gun je dochter alles, maar ik ben niet in de fout gegaan, jij wel\u2026",
+    "Connections": [
+      {
+        "FromNode": "173191203334",
+        "FromPort": 0,
+        "ToNode": "173560302105",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 173560302105,
+    "Title": "Rogier",
+    "Content": "Je hebt gelijk broer, ik weet het ik heb torries verneukt. Maar please ik smeek je neef, alsjeblieft doe het voor mijn dochter, niet voor mij\u2026",
+    "Connections": [
+      {
+        "FromNode": "173560302105",
+        "FromPort": 0,
+        "ToNode": "173929400876",
+        "ToPort": 0
+      },
+      {
+        "FromNode": "173560302105",
+        "FromPort": 0,
+        "ToNode": "187250511067",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 173929400876,
+    "Title": "Bob",
+    "Content": "Nee man, ik ga je niks geven.. Ik vind het kut voor je dochter, maar keuzes zijn keuzes en ik heb ze niet gemaakt. Ik ga niet voor jou fouten opdraaien.",
+    "Connections": [
+      {
+        "FromNode": "173929400876",
+        "FromPort": 0,
+        "ToNode": "187619609838",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 174298499647,
+    "Title": "Bob",
+    "Content": "Maar voordat ik het voorschiet moet je eerst drie maanden uit het criminele circuit zijn. Pas dan schiet ik het geld voor, maar als dat niet lukt dan kun je zelf invullen dat ik het geld niet zal voorschieten.",
+    "Connections": [
+      {
+        "FromNode": "174298499647",
+        "FromPort": 0,
+        "ToNode": "174667598418",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 174667598418,
+    "Title": "Rogier",
+    "Content": "Deal, echt thanks a broer. Zonder jou was ik echt kakka man, je bent een broeder voor het leven.",
+    "Connections": [
+      {
+        "FromNode": "174667598418",
+        "FromPort": 0,
+        "ToNode": "175036697189",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 175036697189,
+    "Title": "",
+    "Content": "BOB en ROGIER proosten op de nieuwe deal en genieten verder van hun drankje.",
+    "Connections": [
+      {
+        "FromNode": "175036697189",
+        "FromPort": 0,
+        "ToNode": "175405795960",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 175405795960,
+    "Title": "",
+    "Content": "INT. KANTOOR - OVERDAG",
+    "Connections": [
+      {
+        "FromNode": "175405795960",
+        "FromPort": 0,
+        "ToNode": "175774894731",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 175774894731,
+    "Title": "",
+    "Content": "Anderhalve maand later, rogier werkt bij bob en komt zijn kantoor binnen.",
+    "Connections": [
+      {
+        "FromNode": "175774894731",
+        "FromPort": 0,
+        "ToNode": "176143993502",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 176143993502,
+    "Title": "Rogier",
+    "Content": "Hey Bob, ik weet het ik kom zomaar met de deur in huis vallen. Maar ik krijg net een belletje van het ziekenhuis dat mijn dochter het niet langer als een maand vol gaat houden als ze de operatie niet krijgt.. ",
+    "Connections": [
+      {
+        "FromNode": "176143993502",
+        "FromPort": 0,
+        "ToNode": "176513092273",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 176513092273,
+    "Title": "Bob",
+    "Content": "Dat is echt kut om te horen, maar wat wil je nu van mij?",
+    "Connections": [
+      {
+        "FromNode": "176513092273",
+        "FromPort": 0,
+        "ToNode": "176882191044",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 176882191044,
+    "Title": "Rogier",
+    "Content": "Ik weet het, ik zit pas op 1,5 maand buiten het criminele leven. Maar ik heb dat geld nu nu nodig voor de operatie, ik ben je sowieso al eeuwig dankbaar voor deze kans maar kan je onze deal voor deze keer door de vingers zien? Ik beloof je ik ga je niet teleurstellen",
+    "Connections": [
+      {
+        "FromNode": "176882191044",
+        "FromPort": 0,
+        "ToNode": "177251289815",
+        "ToPort": 0
+      },
+      {
+        "FromNode": "176882191044",
+        "FromPort": 0,
+        "ToNode": "178358586128",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 177251289815,
+    "Title": "Bob",
+    "Content": "Een deal is een deal, ik vind dit vervelend voor je dochter maar ik ga mijn gedachten niet veranderen.. Ga maar weer aan het werk",
+    "Connections": [
+      {
+        "FromNode": "177251289815",
+        "FromPort": 0,
+        "ToNode": "177620388586",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 177620388586,
+    "Title": "Rogier",
+    "Content": "Ik dacht dat je m\u2019n vriend was, maar nu laat je mij en mijn dochter zo hard vallen. Kansloos tyfus persoon ben jij!",
+    "Connections": [
+      {
+        "FromNode": "177620388586",
+        "FromPort": 0,
+        "ToNode": "177989487357",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 177989487357,
+    "Title": "",
+    "Content": "Rogier stormt boos weg",
+    "Connections": [
+      {
+        "FromNode": "177989487357",
+        "FromPort": 0,
+        "ToNode": "180204079983",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 178358586128,
+    "Title": "Bob",
+    "Content": "Okey, ik ga die operatie betalen. Ik zie een enorme groei in jou en gun jou alle geluk nog met je dochter. Laat me direct weten als alles goed is gekomen met de operatie. Ik zie je binnenkort weer normaal op de zaak verschijnen.",
+    "Connections": [
+      {
+        "FromNode": "178358586128",
+        "FromPort": 0,
+        "ToNode": "178727684899",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 178727684899,
+    "Title": "Rogier",
+    "Content": "Dankje, dankje, dankje. Ik weet zeker dat mijn dochter nu grootste glimlach op haar gezicht heeft. Ik beloof je dat ik als alles goed is gegaan, je direct laten weten. Ik weet niet hoe ik je kan bedanken maar ik ga mijn best doen!",
+    "Connections": [
+      {
+        "FromNode": "178727684899",
+        "FromPort": 0,
+        "ToNode": "179096783670",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 179096783670,
+    "Title": "",
+    "Content": "Rogier loopt vrolijk maar emotioneel weg",
+    "Connections": [
+      {
+        "FromNode": "179096783670",
+        "FromPort": 0,
+        "ToNode": "180573178754",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 179465882441,
+    "Title": "",
+    "Content": "Bob: Rogier, ik wil sorry zeggen van vorige week.. Ik heb het geld naar je rekening overgemaakt.",
+    "Connections": [
+      {
+        "FromNode": "179465882441",
+        "FromPort": 0,
+        "ToNode": "179834981212",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 179834981212,
+    "Title": "",
+    "Content": "Keeske: Bob, Rogier is 2 dagen geleden geliquideerd\u2026 Zijn dochter is 3 dagen daarvoor overleden aan haar ziekte.. Ik wil graag dat je mij en Rogier zijn nabestaande nooit meer contacteert.. VERRADER!",
+    "Connections": [
+      {
+        "FromNode": "179834981212",
+        "FromPort": 0,
+        "ToNode": "181311376296",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 180204079983,
+    "Title": "",
+    "Content": "Appcontact",
+    "Connections": [
+      {
+        "FromNode": "180204079983",
+        "FromPort": 0,
+        "ToNode": "179465882441",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 180573178754,
+    "Title": "",
+    "Content": "Appcontact",
+    "Connections": [
+      {
+        "FromNode": "180573178754",
+        "FromPort": 0,
+        "ToNode": "180942277525",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 180942277525,
+    "Title": "",
+    "Content": "Rogier: De operatie is gelukt, ik ben je zo dankbaar voor dit. Eindelijk kan mijn dochter leven zonder problemen! Ik kom zo snel mogelijk bij je terug!",
+    "Connections": [
+      {
+        "FromNode": "180942277525",
+        "FromPort": 0,
+        "ToNode": "181311376296",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 181311376296,
+    "Title": "",
+    "Content": "Email van Karel",
+    "Connections": [
+      {
+        "FromNode": "181311376296",
+        "FromPort": 0,
+        "ToNode": "181680475067",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 181680475067,
+    "Title": "Karel",
+    "Content": "Beste Bob,",
+    "Connections": [
+      {
+        "FromNode": "181680475067",
+        "FromPort": 0,
+        "ToNode": "182049573838",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 182049573838,
+    "Title": "Karel",
+    "Content": "Ik hoop dat deze boodschap je snel bereikt, want ik zit echt in de knoop en heb dringend je hulp nodig. Het is Karel hier. Ik weet dat het lang geleden is sinds we elkaar gesproken hebben, maar ik heb niemand anders om naartoe te gaan op dit moment.",
+    "Connections": [
+      {
+        "FromNode": "182049573838",
+        "FromPort": 0,
+        "ToNode": "182418672609",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 182418672609,
+    "Title": "Karel",
+    "Content": "Het spijt me dat ik je lastig val met mijn problemen, maar ik heb echt niemand anders om op terug te vallen. Mijn wereld is in elkaar gestort, Bob. Mijn vriendin heeft me uit huis gezet omdat ze zwanger is van de behanger. Ik ben dakloos en ik weet niet waar ik naartoe moet.",
+    "Connections": [
+      {
+        "FromNode": "182418672609",
+        "FromPort": 0,
+        "ToNode": "182787771380",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 182787771380,
+    "Title": "Karel",
+    "Content": "Jij bent altijd mijn beste vriend geweest, Bob. Ik weet dat we misschien wat uit elkaar zijn gegroeid, maar ik smeek je, alsjeblieft, help me. Ik heb een plek nodig om te verblijven, wat advies, misschien zelfs wat emotionele steun. Ik kan niet geloven dat ik dit allemaal moet doormaken, maar ik kan het niet alleen aan.",
+    "Connections": [
+      {
+        "FromNode": "182787771380",
+        "FromPort": 0,
+        "ToNode": "183928622125",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 183156870151,
+    "Title": "Karel",
+    "Content": "Alsjeblieft, laat me niet aan mijn lot over. Ik weet dat ik misschien niet altijd de beste vriend ben geweest, maar ik heb je nu echt nodig, Bob. Alsjeblieft, laat me weten of je me kunt helpen.",
+    "Connections": [
+      {
+        "FromNode": "183156870151",
+        "FromPort": 0,
+        "ToNode": "183525968922",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 183525968922,
+    "Title": "Karel",
+    "Content": "Met hoopvolle groeten,\nKarel",
+    "Connections": [
+      {
+        "FromNode": "183525968922",
+        "FromPort": 0,
+        "ToNode": "185774115983",
+        "ToPort": 0
+      },
+      {
+        "FromNode": "183525968922",
+        "FromPort": 0,
+        "ToNode": "185405017212",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 183928622125,
+    "Title": "",
+    "Content": "Je krijgt een melding over een kattenfilmpje. Wil je dit filmpje bekijken?",
+    "Connections": [
+      {
+        "FromNode": "183928622125",
+        "FromPort": 0,
+        "ToNode": "184297720899",
+        "ToPort": 0
+      },
+      {
+        "FromNode": "183928622125",
+        "FromPort": 0,
+        "ToNode": "184666819670",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 184297720899,
+    "Title": "",
+    "Content": "Ja",
+    "Connections": [
+      {
+        "FromNode": "184297720899",
+        "FromPort": 0,
+        "ToNode": "186143214754",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 184666819670,
+    "Title": "",
+    "Content": "Nee",
+    "Connections": [
+      {
+        "FromNode": "184666819670",
+        "FromPort": 0,
+        "ToNode": "185035918441",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 185035918441,
+    "Title": "Karel",
+    "Content": "En Bob, er is nog iets dat ik moet opbiechten... Ik weet niet hoe ik dit moet zeggen, maar ik heb een enorme fout gemaakt. Ik heb met je ex geslapen. Het spijt me verschrikkelijk, Bob. Ik weet dat ik je vertrouwen heb geschonden en het is het laatste wat ik wilde doen. Maar alsjeblieft, laat dit ons niet uit elkaar drijven. Ik heb je hulp nu meer dan ooit nodig.",
+    "Connections": [
+      {
+        "FromNode": "185035918441",
+        "FromPort": 0,
+        "ToNode": "183156870151",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 185405017212,
+    "Title": "",
+    "Content": "Help Karel niet.",
+    "Connections": [
+      {
+        "FromNode": "185405017212",
+        "FromPort": 0,
+        "ToNode": "188357807380",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 185774115983,
+    "Title": "",
+    "Content": "Help Karel.",
+    "Connections": [
+      {
+        "FromNode": "185774115983",
+        "FromPort": 0,
+        "ToNode": "188357807380",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 186143214754,
+    "Title": "",
+    "Content": "Je bent door het filmpje afgeleid en vergeet dat je het bericht aan het lezen was. Je kiest er dus voor om Karel niet te helpen.",
+    "Connections": [
+      {
+        "FromNode": "186143214754",
+        "FromPort": 0,
+        "ToNode": "188357807380",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 186881412296,
+    "Title": "",
+    "Content": "EXT. TERRAS - OVERDAG",
+    "Connections": [
+      {
+        "FromNode": "186881412296",
+        "FromPort": 0,
+        "ToNode": "159534550575",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 187250511067,
+    "Title": "Bob",
+    "Content": "Oke luister heel goed naar mij! Ik ga je een laatste voorstel voorleggen, jij gaat die schulden nu afbetalen. Jij komt morgen naar mijn zaak toe, en ik schiet je het geld voor die operatie van je dochter voor.",
+    "Connections": [
+      {
+        "FromNode": "187250511067",
+        "FromPort": 0,
+        "ToNode": "187988708609",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 187619609838,
+    "Title": "Rogier",
+    "Content": "Ik vind wel kakka van je man, maar goed. Zie je wel wie je matties zijn en wie niet.",
+    "Connections": [
+      {
+        "FromNode": "187619609838",
+        "FromPort": 0,
+        "ToNode": "186512313525",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 187988708609,
+    "Title": "Rogier",
+    "Content": "Thanks a mattie, eh ik ga meteen dat geld afgeven.",
+    "Connections": [
+      {
+        "FromNode": "187988708609",
+        "FromPort": 0,
+        "ToNode": "174298499647",
+        "ToPort": 0
+      }
+    ]
+  },
+  {
+    "ID": 188357807380,
+    "Title": "",
+    "Content": "EINDE",
     "Connections": []
   },
   {
-    "ID": 2398873454775,
-    "Title": "Bob",
-    "Content": "Ho Ho, beetje respect voor mijn vrouw graag.. Maar nee heb laatst een goeie deal met ...",
-    "Connections": []
+    "ID": 186512313525,
+    "Title": "",
+    "Content": "Rogier loopt weg",
+    "Connections": [
+      {
+        "FromNode": "186512313525",
+        "FromPort": 0,
+        "ToNode": "180204079983",
+        "ToPort": 0
+      }
+    ]
   }
 ]

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d8e7391b52386e488e0e875b8c9d866, type: 3}
   m_Name: Text Bar Settings
   m_EditorClassIdentifier: 
-  DialogueDelay: 10
-  DialogueFinnishedDelay: 250
+  DialogueDelay: 25
+  DialogueFinnishedDelay: 1500

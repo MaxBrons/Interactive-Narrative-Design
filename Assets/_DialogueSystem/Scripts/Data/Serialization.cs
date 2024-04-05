@@ -32,4 +32,9 @@ public class TextNodeExportData : INodeData
     public string Title { get; set; }
     public string Content { get; set; }
     public GraphConnectionsData Connections { get; set; }
+
+    public string ToDialogueLine()
+    {
+        return "[" + (Title != string.Empty ? Title : "...") + "] " + Content;
+    }
 }
